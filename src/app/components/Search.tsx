@@ -24,6 +24,7 @@ export default function Search() {
       <Input
         className="flex-grow px-3 py-2"
         type="text"
+        value={searchValue}
         placeholder="Pokemon name"
         onChange={(e) => setSearchValue(e.target.value)}
       />
