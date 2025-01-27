@@ -13,7 +13,7 @@ async function fetchPokemon(pokemonName: string): Promise<PokemonData> {
     }
 
     return response.json();
-  } catch (error: unknown) {
+  } catch {
     notFound();
   }
 }
